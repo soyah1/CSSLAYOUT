@@ -1,116 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV de Soyah Wael</title>
-    <link rel="shortcut icon" href="res/unnamed (3).jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+<title>Docplanner clone</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
- <div class="container"> 
-<li class=" menulist"><a href="#intro1" class="soya">About Me</a></li>
-<li class=" menulist"><a href="#intro2" class="soya">Formation</a></li>
-<li class=" menulist"><a href="#intro3" class="soya">Expériences Profesionnelles</a></li>
-<li class=" menulist"><a href="#intro4" class="soya">Compétences</a></li>
-<li class=" menulist"><a href="#intro5" class="soya">Langues</a></li>
-<li class=" menulist"><a href="#intro6" class="soya">Développeur WEB?</a></li>
-<li class=" menulist"><a href="#intro7" class="soya">Ma STARTUP</a></li>
-<li class=" menulist"><a href="#intro" class="soya">Contact</a></li>
-</div>
-    <h1><span>Détails personnels</span></h1>
-    <form id="intro1">
-        <label>Nom et prènom:</label>
-        <input type="text" name="nom et prènom" placeholder="Tapez votre nom et prènom" />
-        <br />
-        <label>Date de naissance:</label>
-        <input type="date" name="date de naissance" placeholder="Tapez votre date de naissance" />
-        <br />
-        <label>Lieu de naissance:</label>
-        <input type="text" name="date de naissance" placeholder="Tapez votre lieu de naissance" />
-        <br />
-        <label>Nationalité:</label>
-        <input type="text" name="nationalité" placeholder="Tapez votre nationalité" />
-        <br />
-    </form>
-    <p id="intr"> Choisissez votre sexe:
-        <select>
-            <option value="Homme">Homme</option>
-            <option value="Femme">Femme</option>
-        </select>
-    </p>
-    </section>
-    <section id="intro3">
-        <h1><span>Formation</span></h1>
-        <ol class="ol1">
-            <li>J'ai appris les téchnologies les plus récentes pour devenir développeur web</li>
-            <li>J'ai crée des sites web avec HTML, CSS et JavaScript</li>
-            <li>J'ai appris aussi les bases de JavaScript pour rendre les pages interactives</li>
-        </ol>
+    <header class="docplanner-header">
+        <div class="docplanner-logo">
+Docplanner Group
+        </div>
+        <nav class="header-menu">
+<a class="active" href="#">About us</a>
+<a  href="#">Career</a>
+        </nav>
+    </header>
 
-    </section>
-    <section id="intro4">
-        <h1><span>Expériences profesionnelles</span></h1>
-        <p> Plus de 10ans d'expérience dans la réalisation des projets de conception de sites Internet, notamment
-            l'assemblage des demandes des utilisateurs, la production de code, l'amélioration des designs pour
-            impressioner les clients.</p>
-    </section>
-    <section id="intro5">
-        <h1><span>Compétences</span></h1>
-        <table>
-            <tr>
-                <th>HTML</th>
-                <th>CSS</th>
-                <th>JavaScript</th>
-            </tr>
-            <tr>
-                <td>Excellent</td>
-                <td>Excellent</td>
-                <td>Excellent</td>
-            </tr>
-        </table>
-    </section>
-        <section id="intro7">
-        <h1><span>Langues</span></h1>
-        <table>
-            <tr>
-                <th>Arabe</th>
-                <th>Français</th>
-                <th>Anglais</th>
-                <th>Allemand</th>
-            </tr>
-            <tr>
-                <td>Excellent</td>
-                <td>Très bien</td>
-                <td>Très bien</td>
-                <td>Très bien</td>
-            </tr>
-        </table>
-    </section>
-    <article id="intro2">
-        <h3> Voici une vidéo qui nous explique le métier de développeur web avec Baptiste Levesque de Biwibiz. </h3>
-        <video controls height="240" width="320" autoplay>
-            <source src="res/quest-ce-quun-developpeur-web.mp4" type="video/mp4">
-        </video>
-    </article>
-    <article id="intro6">
-        <h3>Vous pourriez aussi visiter ma startup GOMYCODE que j'ai fondue en 2017, une plateforme éducative
-            panafricaine qui aide les talents de demain à améliorer leurs compétences numériques par le biais de
-            formations abordables et de qualité et de l’assistance des meilleurs instructeurs. GOMYCODE est la plus
-            grande communauté de développeur en Afrique et au Moyen-Orient. Nous formons la prochaine génération de
-            développeurs et les connectons avec les meilleurs projets digitaux du monde entier.</h3>
-        <a href="https://gomycode.tn/">Take me to GoMyCode's Website</a>
-    </article>
-    <footer>
-        <p id="intro">
-            Vous pourriez me contacter sur mon: <br>
-            Numéro de téléphone: +216 50742994 <br>
-            Adresse e-mail: soyahwael5@gmail.com <br>
-            Adresse: 11, rue abou kacem echebbi, Ezzahra
-        </p>
-    </footer>
+
+    <main>
+        <section class="introduction">
+            <div class="introduction-logo"></div>
+                <h1 class="introduction-title">
+                    Making the healthcare experience more human
+                </h1>
+                <div class="introduction-text">
+                <p class="introduction-paragraph">We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+            <p class="introduction-paragraph">We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>        
+        </div>
+        </section>
+
+        <section class="services">
+            <div class="service-card service-card-patient">
+            <div class="service-card-for">For patients</div>
+                <h2 class="service-card-title"> Find a doctor, book a visit...
+            </h2>
+            
+        
+            <div class="service-card-content">
+<select class="service-card-select" name="" id="">
+    <option value="">Choose a country</option>
+    <option value="">Tunisia</option>
+    <option value="">France</option>
+    <option value="">Spain</option>
+</select>
+</div>
+            
+<div class="service-card-image" src="" alt=""></div>
+</div>
+        </div>
+            <div class="service-card service-card-doctors">
+            <div class="service-card-for">For doctors</div>
+            <h2 class="service-card-title">
+                Save time managing visits...
+            </h2>
+            <div class="service-card-content">
+                <div class="service-card-image" src="" alt=""></div>
+            </div>
+        </div>
+        </section>
+
+    </main>
+
+
+    <footer></footer>
+
+
+
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
